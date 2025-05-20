@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - TheAdage Hive</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><u>Share Your Wisdom</u></h1>
+    </header>
+
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <section>
+        <h2>Contribute to the Hive</h2>
+        <p>
+          Do you know a unique adage from your culture or family? Share it with
+          our community and help us grow our collection of wisdom.
+        </p>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Your Adage or Proverb:</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" onclick="submitForm(event)">
+            Submit Wisdom
+          </button>
+        </form>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 || TheAdage Hive</footer>
+  </body>
+</html>

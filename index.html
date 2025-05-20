@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TheAdage Hive</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1><u>Welcome to TheAdage Hive</u></h1>
+    </header>
+
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <main class="content">
+      <section>
+        <h2 id="dynamicText">Discover wisdom from around the world</h2>
+        <button onclick="changeText()">Change Text</button>
+      </section>
+
+      <section id="interactive-box">
+        <h2>Featured Concepts</h2>
+        <p>
+          Explore our collection of timeless wisdom and thought-provoking
+          adages.
+        </p>
+        <p>
+          An adage is a short, memorable saying that expresses a general truth
+          or principle. <br />It is often based on experience or common sense
+          and is passed down through generations.
+        </p>
+        <p>
+          An adage is often a paradox, a statement that seems contradictory but
+          reveals a deeper truth.
+        </p>
+        <button onclick="toggleBoxStyle()">Change Style</button>
+        <button onclick="addElement()">Add Adage</button>
+        <button onclick="removeElement()">Remove Adage</button>
+      </section>
+
+      <section>
+        <h2>Theme Preference</h2>
+        <button onclick="toggleTheme()">Toggle Dark/Light Mode</button>
+        <p>Choose your preferred reading experience.</p>
+      </section>
+    </main>
+
+    <footer>&copy; 2025 || TheAdage Hive</footer>
+  </body>
+</html>
